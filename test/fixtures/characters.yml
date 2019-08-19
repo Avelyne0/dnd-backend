@@ -1,0 +1,53 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  age: 
+  eyes: MyString
+  height: MyString
+  skin: MyString
+  weight: MyString
+  alignment: MyString
+  background: MyString
+  background_feature: MyText
+  bonds: MyText
+  deity: MyString
+  flaws: MyText
+  ideals: MyText
+  personality_traits: MyText
+  class: MyString
+  gender: MyString
+  race: MyString
+  strength: 
+  dexterity: 
+  constitution: 
+  intelligence: 
+  wisdom: 
+  charisma: 
+  user: one
+
+two:
+  name: MyString
+  age: 
+  eyes: MyString
+  height: MyString
+  skin: MyString
+  weight: MyString
+  alignment: MyString
+  background: MyString
+  background_feature: MyText
+  bonds: MyText
+  deity: MyString
+  flaws: MyText
+  ideals: MyText
+  personality_traits: MyText
+  class: MyString
+  gender: MyString
+  race: MyString
+  strength: 
+  dexterity: 
+  constitution: 
+  intelligence: 
+  wisdom: 
+  charisma: 
+  user: two
