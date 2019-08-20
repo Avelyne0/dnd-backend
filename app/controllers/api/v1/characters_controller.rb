@@ -38,7 +38,7 @@ class Api::V1::CharactersController < ApplicationController
 :flaws,
 :ideals,
 :personality_traits,
-:class,
+:char_class,
 :gender,
 :race,
 :strength,
@@ -47,6 +47,7 @@ class Api::V1::CharactersController < ApplicationController
 :intelligence,
 :wisdom,
 :charisma,
+:img_url,
 :user_id
       )
   end
