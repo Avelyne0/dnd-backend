@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_08_20_142809) do
+ActiveRecord::Schema.define(version: 2019_08_21_102501) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -33,12 +33,12 @@ ActiveRecord::Schema.define(version: 2019_08_20_142809) do
     t.string "char_class"
     t.string "gender"
     t.string "race"
-    t.integer "strength"
-    t.integer "dexterity"
-    t.integer "constitution"
-    t.integer "intelligence"
-    t.integer "wisdom"
-    t.integer "charisma"
+    t.integer "STR"
+    t.integer "DEX"
+    t.integer "CON"
+    t.integer "INT"
+    t.integer "WIS"
+    t.integer "CHA"
     t.bigint "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

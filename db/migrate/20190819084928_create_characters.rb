@@ -18,12 +18,12 @@ class CreateCharacters < ActiveRecord::Migration[5.2]
       t.string :class
       t.string :gender
       t.string :race
-      t.integer :strength
-      t.integer :dexterity
-      t.integer :constitution
-      t.integer :intelligence
-      t.integer :wisdom
-      t.integer :charisma
+      t.integer :STR
+      t.integer :DEX
+      t.integer :CON
+      t.integer :INT
+      t.integer :WIS
+      t.integer :CHA
       t.references :user, foreign_key: true
 
       t.timestamps

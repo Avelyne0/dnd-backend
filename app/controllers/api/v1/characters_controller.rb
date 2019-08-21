@@ -20,6 +20,12 @@ class Api::V1::CharactersController < ApplicationController
       render json: { character: FullCharacterSerializer.new(character) }
   end
 
+  def destroy
+    character = Character.find(params[:id])
+    character.destroy
+  end
+
+
   private
 
   def character_params
@@ -41,12 +47,12 @@ class Api::V1::CharactersController < ApplicationController
 :char_class,
 :gender,
 :race,
-:strength,
-:dexterity,
-:constitution,
-:intelligence,
-:wisdom,
-:charisma,
+:STR,
+:DEX,
+:CON,
+:INT,
+:WIS,
+:CHA,
 :img_url,
 :user_id
       )
